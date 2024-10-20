@@ -4,9 +4,203 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" type="text/css"/>
+    <script src="https://kit.fontawesome.com/125fbc4c52.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <script>
+        
+        function showcase(){
+            if(document.getElementById("men").style.display === "none"){
+               document.getElementById("men").style.display = "flex"
+               
+               document.getElementById("btn").style.color="white";
+            }else{
+                document.getElementById("men").style.display = "none"
+                document.getElementById("btn").style.color="black";
+            }
+       
+        }
+    
+    </script>
+
 </head>
 <body>
-    <h1>Git Demo</h1>
-    <h1>Git Line</h1>
+    
+    <div class="container" id="Home">
+        <div class="pos">
+            
+       <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+       <a href=""><i class="fa-brands fa-facebook"></i></a>
+       <a href=""><i class="fa-brands fa-instagram"></i></a>
+       <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+
+    </div>
+        <div class="nav" >
+            <div class="logo">
+                <h1><im src="./css/images/logo.jpg" width="40px" height="40px" alt="logo"/>Journey Junction
+                </h1>
+            </div>
+           
+            <div class="menus" id="men">
+                <a href="#Home">HOME</a>
+                <a href="#aboutus">ABOUT</a>
+                <a href="#service">SERVICES</a>
+                <a href="#review">REVIEW</a>
+                <a href="#contact">CONTACT</a>
+           </div>
+           <button class="menu-btn" onclick="showcase()" id="btn"> <i class="fa-solid fa-bars"></i></button>
+           
+            
+        </div>
+        <div class="container2" >
+        <div class="nav1" id="Home">
+            <h1>Say Yes</h1>
+            <h1>To your vacation</h1>
+           <p>World Wide Travels is a certified travel specialist for exotic locations all over the globe. 
+            These include Iceland, Switzerland, France, Germany, South Africa, Britain, USA, MALTA, Australia, 
+            New Zealand, Qatar, JAPAN, Philippines, Turkey among others. 
+             </p>
+            <button>GET STARTED</button> 
+        </div>
+        
+        </div>
+        <div class="container3" id="aboutus">
+            <div class="c3_img">
+                <img src="./Css/aboutus.png" alt="" >
+            </div>
+            <div class="c3_text">
+                <h1>About us</h1>
+                <p>Welcome to Journey Junction, your go-to destination for discovering the world's hidden gems and iconic landmarks! Our passion for travel drives us to share unique experiences, insider tips, and inspiring stories that ignite your wanderlust.
+
+                    Founded by a team of avid travelers and explorers, we believe that every journey has the potential to transform and enrich lives. Whether you’re seeking adventurous hikes, cultural experiences, or relaxing beach getaways, we’ve curated a wealth of resources to help you plan your perfect trip.
+                    
+                    Our team of seasoned travelers shares their firsthand experiences, ensuring you have the latest information on destinations, accommodations, and activities.
+                    Personalized  
+                    Happy travels, The Journey Junction Team.
+                    
+                    </p>
+            </div>
+        </div>
+        <hr>
+    <h2 class="midder" id="service">Popular Destination</h2>
+    
+    <div class="container4">
+        <div class="box1 box">
+            <h1>INDONESIA</h1>  
+            <img src="https://www.outlooktravelmag.com/media/bali-1-1679062958.profileImage.2x-scaled.webp" alt="">
+            <div class="info">
+             
+            </div>
+        </div>
+        <div class="box2 box">
+            <h1>RUSSIA</h1>
+            <img src="https://www.visitrussia.com/images/places-to-go/photo-2.jpg" alt="">
+        </div>
+        <div class="box3 box ">
+            <h1>UNITED STATE</h1>
+            <img src="https://www.trawell.in/blog/wp-content/uploads/2022/08/Main_Image-6-730x410.jpg" alt="">
+        </div>
+        <div class="box4 box">
+            <h1>PARIS</h1>
+            <img src="https://t4.ftcdn.net/jpg/02/96/15/35/360_F_296153501_B34baBHDkFXbl5RmzxpiOumF4LHGCvAE.jpg" alt="">
+        </div>
+    </div>
+    <hr>
+    <div class="c4" id="review">
+        <h2 class="client">Clients Reviews  </h2>
+        <div class="box1 box">
+            <div class="content">
+                <h2 class="c_name">Dwayne Johnson</h2>
+                <p class="c_rev">I had an incredible experience planning my trip to Italy with 
+                    Journey Junction. The recommendations were spot-on, and the itinerary made everything so easy. 
+                    I can't wait to book my next adventure!</p>
+                <h3>Rating:</h3> <img src="./Css/star.png" class="star"/>    
+            </div>
+            <div class="img">
+                <img src="./Css/Rock.jpg" alt="">
+            </div>
+        </div>
+        <div class="box2 box">
+            <div class="img">
+                <img src="./Css/Olsen.jpg" alt="">
+            </div>
+            <div class="content">
+                <h2 class="c_name">Elizabeth Olsen</h2>
+                <p class="c_rev">The tips on hidden gems were a game changer for my recent trip to Japan. 
+                    I discovered so many places that weren’t on the typical tourist path. Highly recommend this site!.</p>
+                <h3>Rating:</h3><img src="./Css/star.png" class="star"/>   
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="content">
+                <h2 class="c_name">Ryan Reynolds</h2>
+                <p class="c_rev">I appreciate the community aspect of Journey Junction. I shared my travel stories, 
+                    and the feedback was wonderful. It feels great to connect with fellow travelers!
+                </p>
+                <h3>Rating:</h3><img src="./Css/star.png" class="star"/> 
+            </div>
+            <div class="img">
+                <img src="./Css/Ryan.jpg" alt="">
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="img">
+                <img src="./Css/Hue.webp" alt="">
+            </div>
+            <div class="content">
+                <h2 class="c_name">Hugh Jackman</h2>
+                <p class="c_rev">I love how user-friendly the site is! 
+                    The travel guides are detailed and filled with practical advice. 
+                    I booked a fantastic hotel thanks to their review!</p>
+                    <h3>Rating: </h3><img src="./Css/star.png" class="star"/>   
+            </div>
+        </div>
+    </div>
+
+    <div class="container-5">
+                <div class="contact" id="contact">
+                    <h3>Office-Address</h3>
+                    <p> 123 Maple Street
+                        Springfield, IL 62704
+                    </p>
+                    <p><i class="fa-solid fa-phone"></i> (555) 123-4567</p><br>
+                    <p><i class="fa-solid fa-phone"></i> (555) 123-4567</p>
+                </div>
+                <div class="contact">
+                    <h3>Office-Links</h3>
+                    <div class="linker">
+                        <i class="fa-brands fa-linkedin"></i>
+                         <a  href="" class="linkes">Journy_Junction0437</a>
+                        </div><br>
+                    <div class="linker">
+                        <i class="fa-brands fa-discord"></i>
+                         <a href="" class="linkes">Journey_Junction@Worlds</a>
+                        </div><br>
+                    <div class="linker">
+                        <i class="fa-brands fa-square-instagram"></i> 
+                        <a href="" class="linkes">Journey_Junction_3405</a>
+                    </div><br>
+                    <div class="linker">
+                        <i class="fa-brands fa-facebook"></i> 
+                        <a href="" class="linkes">Journey_Jun87@.com</a></div><br>
+                    <div class="linker">
+                        <i class="fa-solid fa-envelope"></i> 
+                        <a href="" class="linkes">Journey_Junction57@gmail.com</a>
+                    </div><br>
+
+                </div>
+                <div class="contact">
+                    <h3>Office-Location</h3>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30775267.859946337!2d60.951230905455795!3d19.680814863984473!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1727742113553!5m2!1sen!2sin" width="300" height="200" class="map" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
 </body>
 </html>
